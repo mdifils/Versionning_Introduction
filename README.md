@@ -72,6 +72,16 @@ Then you can paste it by following the steps describe in this
 
 There are two ways to create a new repository
 
+## From Github
+
+![repos from github](images/repo.png)
+
+
+
 ## From my local machine
 
-## From Github
+1. First create a directory for your project: `mkdir versionning_introduction`
+2. Move into your newly created directory: `cd versioning_introduction`
+3. Initialize your new directory as a repository: `git init`
+4. Create a readme file: `touch README.md`
+5. Write a quick a introduction: `echo # Git Tutorial > README.md`
