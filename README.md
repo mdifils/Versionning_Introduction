@@ -74,9 +74,22 @@ There are two ways to create a new repository
 
 ## From Github
 
-![repos from github](images/repo.png)
+![repos from github](images/create_repo.png)
 
+- Clone your repo: `git clone git@github.com:mdifils/Versionning_Introduction.git`
+- Move into the repo: `cd Versionning_Introduction/`
+- List repo content : `ls`
+- Create a new file: `touch .gitignore`
+- Add a line to that file: `echo .vscode`
+- Check repo status: `git status`
+- Stage new file: `git add .gitignore` or stage all file: `git add .`
+- Commit changes: `git commit -m "First commit"`
+- Check remote alias: `git remote`
+- Push changes to github: `git push origin main`
 
+![git status](images/git_status.png)
+
+![git commit](images/commit_push.png)
 
 ## From my local machine
 
@@ -85,3 +98,5 @@ There are two ways to create a new repository
 3. Initialize your new directory as a repository: `git init`
 4. Create a readme file: `touch README.md`
 5. Write a quick a introduction: `echo # Git Tutorial > README.md`
+6. Create a new repo with the same name on Github without README.
+7. Finally, add changes to the stage area, commit and push them on github
