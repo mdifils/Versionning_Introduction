@@ -80,7 +80,7 @@ There are two ways to create a new repository
 - Move into the repo: `cd Versionning_Introduction/`
 - List repo content : `ls`
 - Create a new file: `touch .gitignore`
-- Add a line to that file: `echo .vscode`
+- Add a line to that file: `echo .vscode > .gitignore`
 - Check repo status: `git status`
 - Stage new file: `git add .gitignore` or stage all file: `git add .`
 - Commit changes: `git commit -m "First commit"`
